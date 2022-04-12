@@ -139,7 +139,6 @@ def keyboard_admin_connect():
 
 def keyboard_consulting():
     create_keyboard = VkKeyboard(one_time=True)
-    create_keyboard.add_line()
     create_keyboard.add_button(button["menu"], color=colors("blue"))
     create_keyboard = create_keyboard.get_keyboard()
     return create_keyboard
