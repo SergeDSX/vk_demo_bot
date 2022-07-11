@@ -84,7 +84,8 @@
     env\Scripts\activate
 
 В виртуальном окружении установите остальные требуемые библиотеки: 
-    pip install -r requirments.txt
+
+    pip install -r requirements.txt
 
 ### Шаг 2
 
